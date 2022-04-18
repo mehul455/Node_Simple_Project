@@ -7,13 +7,14 @@
 
 <body>
     {{>navbar}}
-
+ 
     <!-- main header -->
-    <div class="container-fluid" style="position:relative; top:86px;">
+    <section style="z-index:-1">
+        <div class="container-fluid" style="position:relative; top:86px;">
         <div class="row">
             <div class="col-md-10 col-12 mx-auto">
                <div class="main_content">
-                   <form action="" id="zindex" class="temp_form">
+                   <form action=""  class="temp_form" >
                        <input type="text" id="cityName" placeholder="Enter Your City name">
                        <input type="submit" value="search" id="submitBtn"> 
                    </form>
@@ -37,8 +38,11 @@
  
        
     </div>
+
+    </section>
+    
     <!-- footer -->
-           <div style="position:relative; top:116.04px">
+           <div style="position:relative; top:116px">
  {{>footer}}
     </div>
   
