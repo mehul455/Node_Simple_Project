@@ -35,6 +35,7 @@ padding: 2rem 0;
 .navbar a{
     color: #fff;
     font-size: 1.8rem;
+    z-index: 1;
 }
 .navbar a:hover{
     color: var(--main-color);
@@ -375,6 +376,5 @@ sup{
     width:89px;
 }
 
-.zi{
-    z-index: -1;
-}
+
+

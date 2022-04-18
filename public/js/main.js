@@ -111,9 +111,9 @@ $(document).ready(function () {
 
 
 
-click_click.addEventListener("click", myFunction);
-function myFunction() {
- const zindex = document.getElementById('zindex');
- zindex.classList.toggle('zi')
+// click_click.addEventListener("click", myFunction);
+// function myFunction() {
+//  const zindex = document.getElementById('zindex');
+//  zindex.classList.toggle('zi')
 
-  }
+//   }
