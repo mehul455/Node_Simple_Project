@@ -374,3 +374,7 @@ sup{
     height: 80px;
     width:89px;
 }
+
+.zi{
+    z-index: -1;
+}

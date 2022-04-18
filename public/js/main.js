@@ -7,7 +7,7 @@ const data_hide = document.querySelector('.middle_layer')
 const day = document.getElementById('day');
 const today_data = document.getElementById('today_data');
 const months = document.getElementById('month');
-
+const click_click = document.getElementById('clickclick')
 // days
 const days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 const d = new Date();
@@ -98,3 +98,22 @@ $(document).ready(function () {
         $(this).addClass('active');
     });
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+click_click.addEventListener("click", myFunction);
+function myFunction() {
+ const zindex = document.getElementById('zindex');
+ zindex.classList.toggle('zi')
+
+  }
